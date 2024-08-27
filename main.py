@@ -5,6 +5,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 
 
+
 columns_to_use = [7, 8, 9, 19, 22, 23]
 data = pd.read_csv('data.csv', usecols=columns_to_use)
 
